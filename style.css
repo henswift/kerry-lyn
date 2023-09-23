@@ -1,0 +1,72 @@
+#topnav {
+    height: 60px;
+    width: 100%;
+}
+
+#sitename {
+    display: inline;
+}
+
+#sitename img {
+    height: 60px;
+    display: inline;
+
+}
+
+#schedulebutton {
+    float: right;
+}
+
+.hero {
+    width: 100%;
+}
+
+#biocontainer {
+    margin: 102px auto 102px auto;
+    max-width: 1300px;
+
+}
+
+.flex {
+    border: solid red 2px;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: 10px 10px pink;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 60px;
+}
+
+.flex h2 {
+    margin: 10px;
+}
+
+#cta {
+
+}
+#help {
+
+}
+#question {
+
+}
+#biotext {
+
+}
+#biopic {
+
+}
+
+
+
+#menu {
+
+}
+
+#topnav {
+
+}
+#container {
+
+}
