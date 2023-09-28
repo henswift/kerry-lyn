@@ -1,6 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#container {
+    
+
+}
 #topnav {
-    height: 60px;
     width: 100%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+}
+
+#nav-contents {
+    min-width: 980px;
+    margin: auto;
+    
 }
 
 #sitename {
@@ -8,65 +28,131 @@
 }
 
 #sitename img {
-    height: 60px;
-    display: inline;
-
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
+
+#hamburger {
+    display: inline;
+    margin-left: 30px;
+}
+
+#hamburger
 
 #schedulebutton {
+    padding: 13px 0px 13px 0px;
+    color: gray;
     float: right;
+    width: 245px;
+    height: 45px;
+    text-align: center;
+    border: solid tan 1px;
+    margin-right: 20px;
+    font-family: Madefor,"Helvetica Neue",Helvetica,Arial,"メイリオ","meiryo","ヒラギノ角ゴ pro w3","hiragino kaku gothic pro",sans-serif;
 }
 
-.hero {
+#hero {
     width: 100%;
+    height: 878px;
+    background-image: url("https://static.wixstatic.com/media/e49c6e_4cb8b110fa4b4007afb67cc68578dabb~mv2.jpg/v1/fill/w_1576,h_867,al_c,q_85,enc_auto/e49c6e_4cb8b110fa4b4007afb67cc68578dabb~mv2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 400px;   
+}
+
+.hero-text{
+    width: 450px;
+    margin: auto;
+    color: rgb(96,96,96);
+    font-size: 62px;
+    font-weight: 1;
+    font-family: Madefor,"Helvetica Neue",Helvetica,Arial,"メイリオ","meiryo","ヒラギノ角ゴ pro w3","hiragino kaku gothic pro",sans-serif;
+}
+
+.hero h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+#kerrylyn {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
 }
 
 #biocontainer {
-    margin: 102px auto 102px auto;
-    max-width: 1300px;
-
-}
-
-.flex {
-    border: solid red 2px;
-    border-radius: 10px;
-    background-color: bisque;
-    box-shadow: 10px 10px pink;
+    border-bottom: solid 1px black;
+    padding-bottom: 40px;
+    max-width: 1000px;
     display: flex;
-    justify-content: end;
-    align-items: end;
-    height: 60px;
 }
 
-.flex h2 {
-    margin: 10px;
+#biopic {
+    
+}
+
+#biotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px
+}
+
+#help {
+    display: flex;
+    background-color: #dcded9;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerhelpsection {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
 }
 
 #cta {
-
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#help {
 
+#buttons {
+    padding: 30px 30px 30px 30px;
+    display: flex;
 }
+
+#buttons button {
+    padding: 12px 30px 12px 30px;
+    background-color: #76886e;
+    border: none;
+    margin: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+#buttons button:hover {
+    background-color: #9fab9a;
+}
+
 #question {
-
+    width: 40%;
+    font-size: large;
+    font-weight: 200;
 }
+
 #biotext {
-
-}
-#biopic {
-
+    margin: 50px;
 }
 
-
-
-#menu {
-
-}
-
-#topnav {
-
-}
-#container {
-
-}
