@@ -106,11 +106,6 @@ a:hover {
     margin-left: 20px;
 }
 
-#hamburger {
-    display: inline;
-    margin-left: 30px;
-}
-
 #schedulebutton {
     padding: 13px 0px 13px 0px;
     color: grey;
@@ -124,6 +119,7 @@ a:hover {
     transition: background-color 0.5s ease;
     transition: color 0.5s ease;
     text-decoration: none;
+    margin: 4px 0px 4px 0px;
 }
 
 #schedulebutton:hover {
