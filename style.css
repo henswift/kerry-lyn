@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-#container {
-    
-
-}
 #topnav {
     width: 100%;
     height: 59px;
@@ -20,7 +16,6 @@
 #nav-contents {
     min-width: 980px;
     margin: auto;
-    
 }
 
 #sitename {
@@ -92,8 +87,9 @@
     display: flex;
 }
 
-#biopic {
-    
+#verticalline {
+    height: 30px;
+    border-left: solid 1px black;
 }
 
 #biotext {
@@ -107,37 +103,55 @@
 #help {
     display: flex;
     background-color: #dcded9;
-    padding: 50px;
+    padding: 70px;
     justify-content: center;
     align-items: center;
 }
 
 #innerhelpsection {
-    padding: 50px 0px 0px 0px;
     display: flex;
+    justify-content: space-around;
     max-width: 1000px;
-    justify-content: center;
+}
+
+#borderline {
+    border-bottom: solid 1px black;
+    width: 100px;
+    height: 60px;
+}
+
+#outerquestion {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+#question {
+    width: 100%;
+    font-size: large;
+    text-align: center;
 }
 
 #cta {
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     flex-direction: column;
 }
 
 #buttons {
-    padding: 30px 30px 30px 30px;
     display: flex;
+    padding: 20px 0px 20px 0px;
 }
 
 #buttons button {
     padding: 12px 30px 12px 30px;
     background-color: #76886e;
     border: none;
-    margin: 20px;
+    margin: 10px;
     color: white;
     font-weight: 300;
 }
@@ -146,13 +160,90 @@
     background-color: #9fab9a;
 }
 
-#question {
-    width: 40%;
-    font-size: large;
-    font-weight: 200;
-}
-
 #biotext {
     margin: 50px;
 }
 
+#whitespace {
+    height: 60px;
+}
+
+/* This is where the want to hear more section starts */
+
+#hearmore {
+    background-image: url("https://themes.muffingroup.com/be/coaching/wp-content/uploads/2015/07/home_coaching_slider_pic.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#middlehearmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#innerhearmore {
+    padding: 150px 40px 150px 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerhearmore h2 {
+    padding: 20px;
+}
+
+#innerhearmore h3 {
+    padding: 20px;
+}
+
+#innerhearmore button {
+    padding: 10px;
+    color: white;
+    background-color: #76886e;
+    border: none;
+}
+
+#innerhearmore button:hover {
+    background-color: #9fab9a;
+}
+
+/*  This is where the footer starts*/
+
+#bottomfooter {
+    border: solid 2px red;
+}
+
+#lightfooter {
+    border: solid 2px yellow;
+    padding: 50px;
+    background-color: #a0b6ba;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactinfo {
+    border: solid 2px green;
+    padding: 0px 100px 0px 100px;
+}
+
+#connect {
+    border: solid 2px purple;
+    padding: 0px 100px 0px 100px;
+}
+
+#darkfooter {
+    border: solid 2px orange;
+    padding: 20px;
+    background-color: #4d858c;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
